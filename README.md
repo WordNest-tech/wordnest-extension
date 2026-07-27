@@ -1,6 +1,6 @@
 # 🪺 WordNest Reading Assistant (Chrome Extension)
 
-`WordNest Reading Assistant` 是一款优雅且无痛侵入网页体验的 **Chrome 浏览器阅读辅助扩展**。采用 Manifest V3 标准构建，结合 Shadow DOM 技术，提供网页划词、AI 翻译、语法结构剖析、网页视口分析与图片 OCR 提取等核心功能。
+`WordNest Reading Assistant` 是一款优雅且无痛侵入网页体验的 **Chrome 浏览器阅读辅助扩展**。采用 Manifest V3 标准构建，结合 Shadow DOM 技术，提供网页划词、AI 翻译、语法结构剖析及网页视口分析等核心功能。
 
 ---
 
@@ -46,7 +46,6 @@
 | **POST** | `/ai/translate` | 基于大语言模型的智能文本翻译 |
 | **POST** | `/ai/translate/local` | 极速/本地备用翻译服务 |
 | **POST** | `/ai/analyze-grammar` | 长难句语法拆解与剖析 |
-| **POST** | `/ai/sidebar/parse-document` | 图片 OCR 识图解析 |
 
 ---
 
