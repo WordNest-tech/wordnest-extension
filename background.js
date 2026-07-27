@@ -87,9 +87,9 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     return true;
   }
 
-  // 6. 识图提取与翻译 (OCR)
+  // 6. 识图提取与翻译 (暂未开放)
   if (message.action === "PARSE_DOCUMENT_OCR") {
-    handleFileUploadCall("/ai/sidebar/parse-document", message.data.base64Data, sendResponse);
+    sendResponse({ success: false, error: "识图功能暂未上线" });
     return true;
   }
 
